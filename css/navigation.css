@@ -1,0 +1,64 @@
+/* ==========================================================================
+           2. TOP SYSTEM BAR & NAVIGATION
+           ========================================================================== */
+        .system-topbar {
+            background-color: #0F172A;
+            color: #E2E8F0;
+            padding: 8px 20px;
+            font-size: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #334155;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .system-topbar-left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .project-badge {
+            background-color: var(--primary);
+            color: #fff;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 11px;
+            letter-spacing: 0.3px;
+        }
+
+        .system-topbar-right {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .top-util-btn {
+            background-color: #1E293B;
+            color: #F8FAFC;
+            border: 1px solid #475569;
+            padding: 4px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: background-color 0.15s;
+        }
+
+        .top-util-btn:hover {
+            background-color: #334155;
+        }
+
+        .top-util-btn.highlight {
+            background-color: var(--primary);
+            border-color: var(--primary);
+        }
+
+        .top-util-btn.highlight:hover {
+            background-color: var(--primary-hover);
+        }

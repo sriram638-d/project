@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#2563eb">
+    <title>EduPortal LMS | College Learning Management System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/auth.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <div id="app-root" style="flex:1;display:flex;flex-direction:column;"></div>
+    <div id="toast-container" class="toast-container" aria-live="polite" aria-atomic="true"></div>
+    <div id="universal-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="universal-modal-title">
+        <div id="universal-modal-dialog" class="modal-dialog">
+            <div class="modal-header"><h3 id="universal-modal-title"></h3><button class="modal-close" type="button" onclick="closeModal()" aria-label="Close dialog">&times;</button></div>
+            <div id="universal-modal-body" class="modal-body"></div>
+            <div id="universal-modal-footer" class="modal-footer"></div>
+        </div>
+    </div>
+    <script src="js/storage.js"></script>
+    <script src="js/app-state.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/layout.js"></script>
+    <script src="js/student.js"></script>
+    <script src="js/faculty.js"></script>
+    <script src="js/admin.js"></script>
+    <script src="js/architecture.js"></script>
+</body>
+</html>
